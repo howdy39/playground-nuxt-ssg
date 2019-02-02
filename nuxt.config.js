@@ -54,5 +54,9 @@ module.exports = {
         })
       }
     }
+  },
+
+  router: {
+    base: '/subdirectory'
   }
 }

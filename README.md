@@ -1,5 +1,13 @@
 # playground-nuxt-ssg
 
+```
+yarn generate
+rm -Rf static
+mkdir static
+cp -rp dist static/subdirectory
+live-server static
+```
+
 > My praiseworthy Nuxt.js project
 
 ## Build Setup
