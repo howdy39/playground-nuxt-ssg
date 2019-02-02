@@ -1,4 +1,7 @@
 # playground-nuxt-ssg
+サブディレクトリにデプロイすることがゴール
+
+nuxt.config.js の route.base にサブディレクトリ名を指定
 
 ```
 yarn generate
