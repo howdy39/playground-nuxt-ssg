@@ -3,6 +3,7 @@
     <h1>
       about page
     </h1>
+    <MySwiper />
     <nuxt-link to="/">
       Top
     </nuxt-link>
@@ -10,7 +11,10 @@
 </template>
 
 <script>
-export default {}
+import MySwiper from '~/components/MySwiper'
+export default {
+  components: { MySwiper }
+}
 </script>
 
 <style>
