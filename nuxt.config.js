@@ -53,7 +53,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    vendor: ['vue-awesome-swiper']
   },
 
   router: {
